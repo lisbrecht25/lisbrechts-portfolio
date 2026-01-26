@@ -1,0 +1,33 @@
+body {
+    display: flex;
+    justify-content: center;
+    background-color: #fafeff;
+}
+
+.nav-bar {
+    list-style-type: none;
+    margin: 10px;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgba(113, 147, 157, 0.65);
+    position: fixed;
+    top: 0;
+    width: 350px;
+    z-index: 1000;
+    display: flex;
+    justify-content: center;
+    border-radius: 20px;
+}
+
+.nav-bar-items {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 10px 20px;
+    text-decoration: none;
+    transition: color 0.2s ease;
+}
+
+.nav-bar-items:hover {
+    color: gold;
+}
