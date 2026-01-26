@@ -1,7 +1,10 @@
 body {
-    display: flex;
-    justify-content: center;
     background-color: #fafeff;
+}
+
+.center-content {
+  display: flex;
+  justify-content: center;
 }
 
 .nav-bar {
@@ -9,7 +12,7 @@ body {
     margin: 10px;
     padding: 0;
     overflow: hidden;
-    background-color: rgba(113, 147, 157, 0.65);
+    background-color: rgba(150, 150, 150, 0.65);
     position: fixed;
     top: 0;
     width: 350px;
@@ -29,5 +32,34 @@ body {
 }
 
 .nav-bar-items:hover {
-    color: gold;
+    color: rgb(30, 53, 92);
+}
+
+.gold-text {
+  color: #44576D;
+}
+
+.intro {
+  margin-left: 2vw;
+  padding-top: 60px;
+}
+
+.intro a {
+  justify-content: right;
+  font-family: 'Georgia', monospace;
+  font-style: italic;
+}
+
+.title {
+  font-size: 7vw;
+}
+
+.sub-title {
+  font-size: 4vw;
+}
+
+.break-line {
+  width: 90%;
+  height: 2px;
+  background-color: #29353C;
 }
